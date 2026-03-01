@@ -956,7 +956,7 @@ function FocusFlow({ currentUser, onLogout }) {
               {currentUser.email ? currentUser.email.split("@")[0] : "local account"}
             </div>
           </div>
-          <button onClick={onLogout} title="Sign out" style={{ background: "none", border: "none", color: C.textMuted, cursor: "pointer", fontSize: 14, padding: 2, flexShrink: 0 }} title="Sign out">↪</button>
+          <button onClick={onLogout} title="Sign out" style={{ background: "none", border: "none", color: C.textMuted, cursor: "pointer", fontSize: 14, padding: 2, flexShrink: 0 }}>↪</button>
         </div>
 
         <nav style={{ flex: 1 }}>
